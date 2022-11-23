@@ -1,0 +1,2 @@
+## What happens if the child calls printf() to print some output after closing the descriptor?
+The printf() function does not print anything, because it only prints to standard output (which has been closed).

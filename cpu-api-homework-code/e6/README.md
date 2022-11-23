@@ -1,0 +1,2 @@
+## When would waitpid() be useful?
+waitpid() promotes versatility when dealing with child processes, allowing you to choose which child to wait for, get information about the process when returned, and control how the wait() function works.
